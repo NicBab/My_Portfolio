@@ -11,8 +11,8 @@ export const MenuData = [
         cName: 'menu-text',
     },
     {
-        title: 'Projects',
-        path: '/projects',
+        title: 'Portfolio',
+        path: '/portfolio',
         icon: <GrIcons.GrProjects />,
         cName: 'menu-text',
     },

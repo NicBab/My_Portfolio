@@ -1,4 +1,4 @@
 export { default as About } from './About'
-export { default as Projects } from './Projects'
+export { default as Portfolio } from './Portfolio'
 export { default as Resume } from './Resume'
 export { default as Contact } from './Contact'
