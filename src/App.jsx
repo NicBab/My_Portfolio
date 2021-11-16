@@ -1,13 +1,13 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Header, Footer } from './components/index'
+import { Menu, Footer } from './components/index'
 import { About, Projects, Resume, Contact } from './pages/index' 
 import './App.css'
 
 function App() {
   return (
     <Router>
-      <Header />
+      <Menu />
        <Switch>
         <Route exact path="/about" component={About} />
         <Route path="/projects" component={Projects} />

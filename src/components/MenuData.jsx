@@ -1,23 +1,31 @@
 import React from 'react'
-
+import * as BsIcons from 'react-icons/bs'
+import * as GrIcons from 'react-icons/gr'
+import * as MdIcons from 'react-icons/md'
 
 export const MenuData = [
     {
-        title: About,
+        title: 'About',
         path: '/about',
-        icon: ,
+        icon: <BsIcons.BsInfoCircle />,
         cName: 'menu-text',
     },
     {
-        title: Projects,
+        title: 'Projects',
         path: '/projects',
-        icon: ,
+        icon: <GrIcons.GrProjects />,
         cName: 'menu-text',
     },
     {
-        title: Resume,
+        title: 'Resume',
         path: '/resume',
-        icon: ,
+        icon: <MdIcons.MdOutlineFolderShared />, 
         cName: 'menu-text',
     },
+    {
+        title: 'Contact',
+        path: '/contact',
+        icon: <GrIcons.GrContactInfo />,
+        cName: 'menu-text',
+    }
 ]
