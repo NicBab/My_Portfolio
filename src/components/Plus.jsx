@@ -3,7 +3,9 @@ import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import * as TiIcons from "react-icons/ti";
 import * as AiIcons from "react-icons/ai";
+import * as SiIcons from 'react-icons/si'
 import { plusData } from "./PlusData";
+import './css/Plus.css'
 
 const Plus = () => {
   const [plus, setPlus] = useState(false);
@@ -14,14 +16,14 @@ const Plus = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="followPlus">
           <Link to="#" className="plus-sign">
-            <TiIcons.TiPlusOutline onClick={showPlus} />
+            <SiIcons.SiPluscodes onClick={showPlus} />
           </Link>
         </div>
         <nav className={plus ? "plus-menu active" : "plus-menu"}>
           <ul className="plus-menu-items" onClick={showPlus}>
-            <li className="followPlus-toggle">
+            <li className="plus-toggle">
               <Link to="#" className="plus-sign">
-                <AiIcons.AiOutlineClose />
+                <AiIcons.AiOutlineCloseCircle />
               </Link>
             </li>
             {plusData.map((item, index) => {

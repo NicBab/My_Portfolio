@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path="/" component={About} />
+        <Route exact path="/" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
