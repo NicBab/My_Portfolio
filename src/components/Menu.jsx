@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import * as TiIcons from "react-icons/ti";
 import * as AiIcons from "react-icons/ai";
 import { MenuData } from "./MenuData";
+import Plus from './Plus'
 import "./css/Menu.css";
 
 const Menu = () => {
@@ -17,6 +18,7 @@ const Menu = () => {
           <Link to="#" className="burger">
             <TiIcons.TiThMenu onClick={showMenu} />
           </Link>
+        <Plus />
           <nav className={menu ? "nav-menu active" : "nav-menu"}>
             <ul className="nav-menu-items" onClick={showMenu}>
               <li className="nav-toggle">
