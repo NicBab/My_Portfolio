@@ -13,12 +13,10 @@ const Menu = () => {
     return (
        <>
         <IconContext.Provider value={{color:"#fff"}}>
-
             <div className='nav'>
                 <Link to="#" className="burger">
                     <TiIcons.TiThMenu onClick={showMenu} />
                 </Link>
-
                 <nav className={menu ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items' onClick={showMenu}>
                         <li className='nav-toggle'>
@@ -26,7 +24,6 @@ const Menu = () => {
                                 <AiIcons.AiOutlineCloseCircle />
                             </Link>
                         </li>
-
                         {MenuData.map((item, index) => {
                             return (
                                 <li key={index} className={item.cName}>
@@ -40,7 +37,7 @@ const Menu = () => {
                     </ul>
                 </nav>
             </div>
-        </IconContext.Provider>  
+          </IconContext.Provider>  
        </>
     )
 }
