@@ -60,6 +60,7 @@
 
 .nav-menu-items {
     width: 100%;
+    margin-top: 15px;
 }
 
 .nav-toggle {
@@ -78,7 +79,7 @@ span {
 
 @media screen and (max-width: 800px) {
     .nav-menu-items {
-        margin-top: 60px;
+        margin-top: 70px;
     }
     .menu-text a:active {
         color: aqua;
