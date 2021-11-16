@@ -16,7 +16,7 @@ const Footer = () => {
               <Link to="/contact">Help</Link>
             </section>
             <section className="footer-links">
-              <h2 id>About Us</h2>
+              <h2 id>About Me</h2>
                 <Link to="/history">History</Link>
                 <Link to="/blog">Blog</Link>
             </section>
