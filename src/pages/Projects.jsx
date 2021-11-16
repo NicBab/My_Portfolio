@@ -1,8 +1,9 @@
 import React from 'react'
+import './css/Projects.css'
 
 const Projects = () => {
     return (
-        <div>
+        <div className="projects">
             Projects Page
         </div>
     )
