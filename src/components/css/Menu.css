@@ -1,0 +1,60 @@
+.nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 3em;
+}
+
+.burger {
+    color: white;
+    margin: 2rem;
+    font-size: 2em;
+    display: flex;
+}
+
+.nav-menu {
+    background-color: black;
+    width: 240px;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+    border-radius: 10px;
+}
+
+.nav-text {
+
+}
+
+.nav-text a {
+
+}
+
+.nav-text a:hover {
+
+}
+
+.nav-menu-items {
+
+}
+
+.nav-toggle {
+
+}
+
+span {
+
+}
+
+
+
