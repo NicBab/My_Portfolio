@@ -22,7 +22,7 @@ const Menu = () => {
           <nav className={menu ? "nav-menu active" : "nav-menu"}>
             <ul className="nav-menu-items" onClick={showMenu}>
               <li className="nav-toggle">
-                <Link to="#" className="menu-bars">
+                <Link to="#" className="closeIcon">
                   <AiIcons.AiOutlineCloseCircle />
                 </Link>
               </li>
