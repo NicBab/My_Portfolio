@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
-import * as TiIcons from "react-icons/ti";
 import * as BiIcons from "react-icons/bi";
 import * as AiIcons from "react-icons/ai";
 // import * as SiIcons from 'react-icons/si'

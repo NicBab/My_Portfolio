@@ -3,7 +3,6 @@ import * as AiIcons from 'react-icons/ai'
 
 
 export const plusData = [
- 
     {
         title: "Facebook",
         path: "facebook.com",
