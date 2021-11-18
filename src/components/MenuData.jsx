@@ -12,6 +12,12 @@ export const MenuData = [
     cName: "menu-text",
   },
   {
+    title: "Contact",
+    path: "/contact",
+    icon: <GoIcons.GoMail />,
+    cName: "menu-text",
+  },
+  {
     title: "Portfolio",
     path: "/portfolio",
     icon: <MdIcons.MdImageSearch/>,
@@ -21,12 +27,6 @@ export const MenuData = [
     title: "Resume",
     path: "/resume",
     icon: <RiIcons.RiFolderUserLine />,
-    cName: "menu-text",
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <GoIcons.GoMail />,
     cName: "menu-text",
   },
 ];
