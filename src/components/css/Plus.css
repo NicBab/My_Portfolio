@@ -4,9 +4,10 @@
     justify-content: end;
 }
 
-.plus-sign {
-    margin: 2rem;
-    font-size: 20pt;
+.plus-sign,
+.closeIcon {
+    margin: 15pt;
+    font-size: 2rem;
     display: flex;
 }
 
@@ -18,18 +19,21 @@
     justify-content: start;
     position: fixed;
     top: 0;
-    right: -100%;
+    left: -100%;
     transition: 850ms; 
 }
 
 .plus-menu.active {
-    right: 0;
+    opacity: 0.95;
+    left: 0;
     transition: 350ms;
     border-radius: 20px;
 }
 
 .plus-text a:hover {
     background-color: grey;
+    color: white;  
+    text-shadow: .2px .2px;
 }
 
 .plus-text a {
@@ -48,7 +52,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 6px 0px 6px 0px;
+    padding:  4px 0px 4px 0px;
     list-style: none;
     height: 50px;
 }
@@ -70,4 +74,10 @@
 
 span{
     margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .plus-menu-items {
+        margin-top: 70px;
+    }
 }

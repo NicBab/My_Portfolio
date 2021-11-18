@@ -3,13 +3,14 @@
     display: flex;
     flex-direction: row;
     /* flex-grow: 2; */
-    justify-content: space-between;
+   justify-content: start;
     align-items: center;
     height: 3rem;
 }
 
-.burger {
-    margin: 2rem;
+.burger,
+.closeIcon {
+    margin: 15pt;
     font-size: 2rem;
     display: flex;
 }
@@ -27,6 +28,7 @@
 }
 
 .nav-menu.active {
+    opacity: 0.95;
     left: 0;
     transition: 350ms;
     border-radius: 20px;;
@@ -34,6 +36,7 @@
 
 .menu-text a:hover {
     background-color: grey;
+    text-shadow: .2px .2px;
 }
 
 .menu-text a {
@@ -53,7 +56,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 6px 0px 6px 0px;
+    padding: 4px 0px 4px 0px;
     list-style: none;
     height: 50px;
 }
@@ -78,6 +81,9 @@ span {
 }
 
 @media screen and (max-width: 800px) {
+    .nav {
+        justify-content: space-between;
+    }
     .nav-menu-items {
         margin-top: 70px;
     }

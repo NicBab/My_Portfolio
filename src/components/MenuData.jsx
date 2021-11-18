@@ -7,7 +7,7 @@ import * as GoIcons from "react-icons/go"
 export const MenuData = [
   {
     title: "About",
-    path: "/about",
+    path: "/",
     icon: <BsIcons.BsInfoCircle />,
     cName: "menu-text",
   },
