@@ -1,3 +1,21 @@
-.about {
-    text-align: center;
+.aboutPg {
+    background-color: rgb(138, 138, 78);
+}
+
+figCaption {
+    color: black;
+    text-indent: 2em;
+    font-size: 15pt;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.headerImg {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    figCaption {
+        font-size: 12pt;
+    }
 }
