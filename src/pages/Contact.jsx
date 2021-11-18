@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Contact.css'
 import { phoneIcon, mailIcon } from '../Icons'
+import { Container } from 'react-bootstrap'
 
 const Contact = () => {
     const onContactLinkedInClick = () => {
@@ -22,10 +23,12 @@ const Contact = () => {
     return (
        <>
         <div className="contactPg">
+         <Container>
           <div className="contactLinkedIn" onClick={onContactLinkedInClick}>LinkedIn</div>
           <div className="contactGitHub" onClick={onContactGitHubClick}>GitHub</div>
           <div className="contactEmail" onClick={onContactEmailClick}>{mailIcon}nickpbab@gmail.com</div>
           <div className="contactPhone" onClick={onContactPhoneClick}>{phoneIcon}(337)257-9202</div>
+         </Container>
         </div>
       </>
     )

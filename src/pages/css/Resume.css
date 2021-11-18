@@ -1,3 +1,14 @@
-.resume {
-    text-align: center;
+.resumePg {
+    background-color: rgb(138, 138, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.resumeImg {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
