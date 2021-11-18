@@ -1,11 +1,17 @@
 import React from 'react'
 import './css/Resume.css'
+import Nic_Bab_resume from '../Images/Nic_Bab_resume.png'
 
 const Resume = () => {
     return (
-        <div className="resume">
-            Resume Page
-        </div>
+        <div className="resumePg">
+        <img
+           className="resumeImg"
+        //    style={{maxWidth: "50", height: "auto"}}
+           src={Nic_Bab_resume}
+           alt="resume"
+       />
+   </div>
     )
 }
 

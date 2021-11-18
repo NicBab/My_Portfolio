@@ -1,4 +1,24 @@
-.portfolio {
-    text-align: center;
-    background-color: rgb(88, 88, 203);
+.portfolioPg {
+    padding: 2em;
+    background-color: rgb(138, 138, 78);
+}
+
+.sgPhotography,
+.linkerator,
+.firebaseLogin,
+.artCollector,
+.bayouBros {
+    cursor: pointer;
+    color: rgb(247, 247, 60);
+    padding: 18px;
+    font-size: 18pt;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+}
+
+.portfolioDescription {
+    font-size: 12pt;
+    color: rgb(243, 243, 201);
 }
