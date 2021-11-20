@@ -15,8 +15,8 @@ footer {
   .footerIcons {
     background-color: rgb(26, 25, 25);
     display: flex;
-    justify-content: center;
-    
+    align-items: start;
+    margin-right: 5rem;
   }
   
   footer > section {
