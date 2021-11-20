@@ -7,8 +7,14 @@
 
 .resumeImg {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
     margin: 10px;
+}
+
+@media screen and (min-width: 900px) {
+    .resumeImg {
+        max-width: 900px;
+    }
 }
 

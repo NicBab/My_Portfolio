@@ -7,7 +7,7 @@ import * as VscIcons from 'react-icons/vsc'
 export const plusData = [
     {
         title: "Facebook",
-        path: "facebook.com",
+        url: "facebook.com",
         icon: <ImIcons.ImFacebook />,
         cName: "plus-text",
     },
