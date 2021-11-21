@@ -7,9 +7,10 @@ const Footer = () => {
   return (
     <>
       <div>
-        
         <footer className="site-footer">
-        <div className="footerIcons"> <IconsHeader /> </div>
+         <div className="footerIcons"> 
+           <IconsHeader /> 
+          </div>
           <section className="footer-links">
             <h2>Customer Care</h2>
             <Link to="/policies">Policies</Link>
