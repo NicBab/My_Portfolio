@@ -9,16 +9,11 @@ footer {
   
   .site-footer {
     display: flex;
-    align-items: start;
   }
 
   .footerIcons {
-    background-color:rgb(84, 83, 84);
-    border-radius: 15px;
-    width: 9rem;
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
   }
   
   footer > section {
@@ -67,6 +62,7 @@ footer {
     .footerIcons {
       align-items: start;
       margin-right: 5rem;
+      margin-top: 1rem;
     }
 
     footer > section {
