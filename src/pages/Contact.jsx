@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <>
       <div className="contactPg">
-        <Container>
+        <Container className="contactContainer">
           <div className="contactLinks" onClick={onContactLinkedInClick}>
             <GrIcons.GrLinkedinOption className="contactIcons" /> LinkedIn
            </div>
