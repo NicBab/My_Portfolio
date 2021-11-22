@@ -2,16 +2,25 @@
     background-color: rgb(160, 160, 90);
 }
 
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerImg {
+    border-radius: 50%;
+    margin-top: 10px;  
+    box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
 figCaption {
     color: black;
     text-indent: 2em;
     font-size: 15pt;
     line-height: 1.5;
     padding: 20px;
-}
-
-.headerImg {
-    border-radius: 50%;
 }
 
 @media screen and (max-width: 800px) {
