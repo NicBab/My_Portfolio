@@ -1,18 +1,19 @@
 import React from "react";
 import "./css/About.css";
 import IMG_3364 from "../Images/IMG_3364.jpeg";
+import { Container } from 'react-bootstrap'
 
 const About = () => {
   return (
     <div className="aboutPg">
-      <figure>
-        <figcaption>
-          <img
+     <Container className="aboutContainer">
+      <img
             className="headerImg"
-            style={{ maxWidth: "12em", height: "auto" }}
+            style={{ maxWidth: "14em", height: "auto" }}
             src={IMG_3364}
             alt="meProfilePic"
           />
+        <figcaption>
           Hi all! My name is Nic Babineaux, I am currently located in Lafayette,
           Louisiana. I am a fullstack, front end, ui developer, certified
           powersports technician and musician. Attended and graduated MMI
@@ -35,7 +36,7 @@ const About = () => {
           end and fullstack developer, creating responsive and functional web
           applications for individual artists and local small businesses!
         </figcaption>
-      </figure>
+      </Container>
     </div>
   );
 };
