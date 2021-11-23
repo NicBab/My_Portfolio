@@ -23,8 +23,8 @@
 
 .projectImg {
     border-radius: 10px;
-    height: 450px;
-    width: 350px;
+    max-width: 14em;
+    max-height: 14rem;
     box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
