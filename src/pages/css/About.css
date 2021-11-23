@@ -37,3 +37,9 @@ figCaption {
         font-size: 12pt;
     }
 }
+
+/* @media screen and (min-width: 900px) {
+    .aboutContainer {
+        max-width: 700px;
+    }
+} */
