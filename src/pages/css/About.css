@@ -19,7 +19,7 @@
 figCaption {
     color: black;
     text-indent: 2em;
-    font-size: 14pt;
+    font-size: 12pt;
     line-height: 1.5;
     padding: 20px;
     margin: 20px;
@@ -35,6 +35,7 @@ figCaption {
 @media screen and (min-width: 900px) {
     figCaption {
         max-width: 900px;
+        font-size: 15pt;
     }
 }
 
