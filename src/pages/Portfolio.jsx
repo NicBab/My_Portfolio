@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/Portfolio.css";
+import { Container } from 'react-bootstrap'
 import sgPhotoImg from '../Images/sgPhotoImg.png'
 import drivenResultsImg from '../Images/DrivenResultsImg.png'
 import linkeratorImg from '../Images/linkeratorImg.png'
@@ -31,7 +32,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="portfolioPg">
-
+       <Container className="projectCardsContainer">
         <div className="projectLinks" onClick={onSgPhotographyClick}>
           SG Photography
           <img
@@ -40,11 +41,11 @@ const Portfolio = () => {
             src={sgPhotoImg}
             alt="sgPhotographyImg"
           />
-          <p className="portfolioDescription">
+          {/* <p className="portfolioDescription">
             * Front End project employing React js, bootstrap, css and image API
             <br />* Responsive and polished application for an Individual
             photographer based in Colorado
-          </p>
+          </p> */}
         </div>
 
         <div className="projectLinks" onClick={onDrivenResultsClick}>
@@ -55,7 +56,7 @@ const Portfolio = () => {
             src={drivenResultsImg}
             alt="drivenResultsImg"
           />
-          <p className="portfolioDescription">Hello</p>
+          {/* <p className="portfolioDescription">Hello</p> */}
         </div>
 
         <div className="projectLinks" onClick={onLinkeratorClick}>
@@ -66,14 +67,14 @@ const Portfolio = () => {
             src={linkeratorImg}
             alt="linkeratorImg"
           />
-          <p className="portfolioDescription">
+          {/* <p className="portfolioDescription">
             * Worked with a team of 3 to develop an educational fullstack
             application
             <br />
             * CRUD app featuring number of clicks and input link in descending
             order
             <br />* React, PostgreSQL, API, css
-          </p>
+          </p> */}
         </div>
 
         {/* <div className="projectLinks">
@@ -89,13 +90,13 @@ const Portfolio = () => {
             src={artCollectorImg}
             alt="artCollectorImg"
           />
-          <p className="portfolioDescription">
+          {/* <p className="portfolioDescription">
             * Front end educational project
             <br />
             * Features functional classification dropdown and search utilizing
             Harvard art collection API
             <br />
-          </p>
+          </p> */}
         </div>
 
         <div className="projectLinks" onClick={onBayouBrosClick}>
@@ -106,8 +107,9 @@ const Portfolio = () => {
             src={bayouBrosImg}
             alt="bayouBrosImg"
           />
-          <p className="portfolioDescription">Hello</p>
+          {/* <p className="portfolioDescription">Hello</p> */}
         </div>
+        </Container>
       </div>
     </>
   );
