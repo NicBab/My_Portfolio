@@ -33,9 +33,9 @@ const Portfolio = () => {
       <div className="portfolioPg">
 
         <div className="projectLinks" onClick={onSgPhotographyClick}>
-          SG Photography -
+          SG Photography
           <img
-            className="sgPhotoImg"
+            className="projectImg"
             style={{ maxWidth: "14em", height: "auto" }}
             src={sgPhotoImg}
             alt="sgPhotographyImg"
@@ -48,9 +48,9 @@ const Portfolio = () => {
         </div>
 
         <div className="projectLinks" onClick={onDrivenResultsClick}>
-          DrivenResults -
+          DrivenResults
           <img
-            className="drivenResultsImg"
+            className="projectImg"
             style={{ maxWidth: "14em", height: "auto" }}
             src={drivenResultsImg}
             alt="drivenResultsImg"
@@ -59,9 +59,9 @@ const Portfolio = () => {
         </div>
 
         <div className="projectLinks" onClick={onLinkeratorClick}>
-          The Great Linkerator -
+          The Great Linkerator
           <img
-            className="linkeratorImg"
+            className="projectImg"
             style={{ maxWidth: "14em", height: "auto" }}
             src={linkeratorImg}
             alt="linkeratorImg"
@@ -82,9 +82,9 @@ const Portfolio = () => {
         </div> */}
 
         <div className="projectLinks" onClick={onArtCollectorClick}>
-          Harvard Art Collector -
+          Harvard Art Collector
           <img
-            className="artCollectorImg"
+            className="projectImg"
             style={{ maxWidth: "14em", height: "auto" }}
             src={artCollectorImg}
             alt="artCollectorImg"
@@ -99,9 +99,9 @@ const Portfolio = () => {
         </div>
 
         <div className="projectLinks" onClick={onBayouBrosClick}>
-          Bayou Bros Meats -
+          Bayou Bros Meats
           <img
-            className="bayouBrosImg"
+            className="projectImg"
             style={{ maxWidth: "14em", height: "auto" }}
             src={bayouBrosImg}
             alt="bayouBrosImg"
