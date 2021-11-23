@@ -3,21 +3,46 @@
     padding: 2em;
 }
 
-.sgPhotography,
-.linkerator,
-.firebaseLogin,
-.artCollector,
-.bayouBros {
+.projectCardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     color: rgb(247, 247, 60);
     padding: 18px;
     font-size: 18pt;
     margin: 4px;
-    border: 1px solid black;
-    border-radius: 10px;  
+}
+
+.projectImg {
+    border-radius: 10px;
+    height: 450px;
+    width: 350px;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.projectImg:hover {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    text-shadow: rgb(76, 89, 98) 1px 1px 8px;
 }
 
 .portfolioDescription {
     font-size: 12pt;
     color: rgb(243, 243, 201);
+}
+
+@media screen and (min-width: 900px) {
+  .projectCardsContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
 }

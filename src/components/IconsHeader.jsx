@@ -4,8 +4,6 @@ import './css/IconsHeader.css'
 
 const IconsHeader = () => {
 
-    
-
     const onFbIconClick = () => {
         window.open("")
     }
@@ -21,7 +19,7 @@ const IconsHeader = () => {
     }
 
     return (
-        <div id="icons">
+        <div id="iconsRow">
             <div className="icons" onClick={onFbIconClick}>{facebookIcon}</div>
             <div className="icons" onClick={onIgIconClick}>{instagramIcon}</div>
             <div className="icons" onClick={onGhIconClick}>{githubIcon}</div>

@@ -1,4 +1,4 @@
-#icons {
+#iconsRow {
     color: white;
     display: flex;
     align-items: center;
@@ -10,4 +10,10 @@
     margin: 5px;
     display: flex;
     align-items: center;
+}
+
+.icons:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
