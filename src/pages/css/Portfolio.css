@@ -3,24 +3,38 @@
     padding: 2em;
 }
 
+.projectCardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .projectLinks {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     cursor: pointer;
     color: rgb(247, 247, 60);
     padding: 18px;
     font-size: 18pt;
     margin: 4px;
-    border: 1px solid black;
-    border-radius: 10px;  
 }
 
 .projectImg {
-    border-radius: 10px;;
+    border-radius: 10px;
+    height: 450px;
+    width: 350px;
 }
 
 .portfolioDescription {
     font-size: 12pt;
     color: rgb(243, 243, 201);
+}
+
+@media screen and (min-width: 900px) {
+  .projectCardsContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
 }
