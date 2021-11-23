@@ -3,11 +3,7 @@
     padding: 2em;
 }
 
-.sgPhotography,
-.linkerator,
-.firebaseLogin,
-.artCollector,
-.bayouBros {
+.projectLinks {
     cursor: pointer;
     color: rgb(247, 247, 60);
     padding: 18px;

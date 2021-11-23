@@ -38,7 +38,6 @@ const Contact = () => {
           <div className="contactLinks" onClick={onContactPhoneClick}>
             <BsIcons.BsFillTelephoneFill className="contactIcons" />(337) 257-9202
           </div>
-   
         </Container>
       </div>
     </>

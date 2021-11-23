@@ -22,7 +22,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="portfolioPg">
-        <div className="sgPhotography" onClick={onSgPhotographyClick}>
+        <div className="projectLinks" onClick={onSgPhotographyClick}>
           SG Photography -
           <p className="portfolioDescription">
             * Front End project employing React js, bootstrap, css and image API
@@ -31,7 +31,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="linkerator" onClick={onLinkeratorClick}>
+        <div className="projectLinks" onClick={onLinkeratorClick}>
           The Great Linkerator -
           <p className="portfolioDescription">
             * Worked with a team of 3 to develop an educational fullstack
@@ -43,12 +43,12 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="firebaseLogin">
+        <div className="projectLinks">
           Firebase login -
           <p className="portfolioDescription">Hello</p>
         </div>
 
-        <div className="artCollector" onClick={onArtCollectorClick}>
+        <div className="projectLinks" onClick={onArtCollectorClick}>
           Harvard Art Collector -
           <p className="portfolioDescription">
             * Front end educational project
@@ -59,7 +59,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="bayouBros" onClick={onBayouBrosClick}>
+        <div className="projectLinks" onClick={onBayouBrosClick}>
           Bayou Bros Meats -
           <p className="portfolioDescription">Hello</p>
         </div>
