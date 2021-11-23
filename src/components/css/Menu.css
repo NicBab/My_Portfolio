@@ -43,10 +43,9 @@
 
 .menu-text a:hover {
     background-color: grey;
-    /* text-shadow: .2px .2px; */
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .menu-text a {
@@ -54,7 +53,6 @@
     color: #f5f5f5;
     font-size: 18px;
     width: 80%;
-    /* height: 100%; */
     display: flex;
     align-items: center;
     padding: 5px;
