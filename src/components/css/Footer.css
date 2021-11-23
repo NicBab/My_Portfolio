@@ -48,13 +48,8 @@ footer {
   section:last-of-type {
     margin-right: 0;
   }
-  
-  /* section {
-    flex-direction: row;
-  } */
 
   @media screen and (min-width: 800px) {
-
     .site-footer {
       flex-direction: row;
     }
@@ -73,5 +68,4 @@ footer {
       padding-bottom: 4px;
       margin-bottom: 1rem;
     }
-
   }

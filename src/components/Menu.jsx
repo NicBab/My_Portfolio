@@ -6,7 +6,6 @@ import * as AiIcons from "react-icons/ai";
 import { MenuData } from "./MenuData";
 import "./css/Menu.css";
 import IconsHeader from "./IconsHeader"
-// import Plus from './Plus'
 
 const Menu = () => {
   const [menu, setMenu] = useState(false);

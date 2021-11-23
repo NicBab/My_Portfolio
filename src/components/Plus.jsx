@@ -3,7 +3,6 @@ import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import * as BiIcons from "react-icons/bi";
 import * as AiIcons from "react-icons/ai";
-// import * as SiIcons from 'react-icons/si'
 import { plusData } from "./PlusData";
 import './css/Plus.css'
 
