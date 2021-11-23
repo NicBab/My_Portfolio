@@ -37,77 +37,45 @@ const Portfolio = () => {
           SG Photography
           <img
             className="projectImg"
-            style={{ maxWidth: "14em", height: "auto" }}
             src={sgPhotoImg}
             alt="sgPhotographyImg"
           />
-          {/* <p className="portfolioDescription">
-            * Front End project employing React js, bootstrap, css and image API
-            <br />* Responsive and polished application for an Individual
-            photographer based in Colorado
-          </p> */}
         </div>
 
         <div className="projectLinks" onClick={onDrivenResultsClick}>
           DrivenResults
           <img
             className="projectImg"
-            style={{ maxWidth: "14em", height: "auto" }}
             src={drivenResultsImg}
             alt="drivenResultsImg"
           />
-          {/* <p className="portfolioDescription">Hello</p> */}
         </div>
 
         <div className="projectLinks" onClick={onLinkeratorClick}>
           The Great Linkerator
           <img
             className="projectImg"
-            style={{ maxWidth: "14em", height: "auto" }}
             src={linkeratorImg}
             alt="linkeratorImg"
           />
-          {/* <p className="portfolioDescription">
-            * Worked with a team of 3 to develop an educational fullstack
-            application
-            <br />
-            * CRUD app featuring number of clicks and input link in descending
-            order
-            <br />* React, PostgreSQL, API, css
-          </p> */}
         </div>
-
-        {/* <div className="projectLinks">
-          Firebase login -
-          <p className="portfolioDescription">Hello</p>
-        </div> */}
 
         <div className="projectLinks" onClick={onArtCollectorClick}>
           Harvard Art Collector
           <img
             className="projectImg"
-            style={{ maxWidth: "14em", height: "auto" }}
             src={artCollectorImg}
             alt="artCollectorImg"
           />
-          {/* <p className="portfolioDescription">
-            * Front end educational project
-            <br />
-            * Features functional classification dropdown and search utilizing
-            Harvard art collection API
-            <br />
-          </p> */}
         </div>
 
         <div className="projectLinks" onClick={onBayouBrosClick}>
           Bayou Bros Meats
           <img
             className="projectImg"
-            style={{ maxWidth: "14em", height: "auto" }}
             src={bayouBrosImg}
             alt="bayouBrosImg"
           />
-          {/* <p className="portfolioDescription">Hello</p> */}
         </div>
         </Container>
       </div>
