@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* margin: 10px; */
 }
 
 .headerImg {
@@ -21,6 +22,14 @@ figCaption {
     font-size: 15pt;
     line-height: 1.5;
     padding: 20px;
+    margin: 20px;
+
+    background: rgba(143, 184, 170, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.8px);
+    -webkit-backdrop-filter: blur(18.8px);
+    border: 1px solid rgba(143, 184, 170, 0.65);
 }
 
 @media screen and (max-width: 800px) {
