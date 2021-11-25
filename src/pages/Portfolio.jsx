@@ -12,22 +12,23 @@ import bayouBrosImg from "../Images/bayouBrosImg.png";
 const Portfolio = () => {
   const onSgPhotographyClick = () => {
     window.open("https://goofy-wright-304451.netlify.app/");
-  };
+}
 
   const onDrivenResultsClick = () => {
     window.open("https://peaceful-hoover-462aa0.netlify.app/");
-  };
+}
 
-  const onBayouBrosClick = () => {};
+  const onBayouBrosClick = () => {;
   window.open("https://jolly-ramanujan-7108eb.netlify.app/");
-};
+}
 
 const onArtCollectorClick = () => {
   window.open("https://quirky-lamport-8e798a.netlify.app/");
+}
 
   const onLinkeratorClick = () => {
     window.open("https://obscure-basin-06170.herokuapp.com/");
-  };
+}
 
   return (
     <>
