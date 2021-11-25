@@ -1,41 +1,41 @@
 .contactPg {
-    background-color: rgb(160, 160, 90);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  background-color: rgb(160, 160, 90);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .contactContainer {
-    background: rgba(143, 184, 170, 0.17);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(18.8px);
-    -webkit-backdrop-filter: blur(18.8px);
-    border: .5px solid rgba(91, 146, 128, 0.65);
-    box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.2);
-    z-index: 0;
+  background: rgba(143, 184, 170, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(18.8px);
+  -webkit-backdrop-filter: blur(18.8px);
+  border: 0.5px solid rgba(91, 146, 128, 0.65);
+  box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.2);
+  z-index: 0;
 }
 
 .contactLinks {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 8px;
-    font-size: 18pt;
-    margin: 5px;
-    color: rgb(247, 247, 60);
-    cursor: pointer;
-    font-style: italic;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px;
+  font-size: 18pt;
+  margin: 5px;
+  color: rgb(247, 247, 60);
+  cursor: pointer;
+  font-style: italic;
 }
 
 .contactIcons {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .contactLinks:hover {
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    transform: scale(1.01);
-    text-shadow: rgb(76, 89, 98) 1px 1px 8px;
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  text-shadow: rgb(76, 89, 98) 1px 1px 8px;
 }

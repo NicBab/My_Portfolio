@@ -1,48 +1,48 @@
 .portfolioPg {
-    background-color: rgb(160, 160, 90);
-    padding: 2em;
+  background-color: rgb(160, 160, 90);
+  padding: 2em;
 }
 
 .projectCardsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projectLinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    color: rgb(247, 247, 60);
-    padding: 18px;
-    font-size: 18pt;
-    margin: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(247, 247, 60);
+  padding: 18px;
+  font-size: 18pt;
+  margin: 4px;
 }
 
 .projectImg {
-    border-radius: 10px;
-    max-width: 14em;
-    max-height: 14rem;
-    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 14em;
+  max-height: 14rem;
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
 .projectImg:hover {
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    transform: scale(1.01);
-    box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.2);
 }
 
 .portfolioDescription {
-    font-size: 12pt;
-    color: rgb(243, 243, 201);
+  font-size: 12pt;
+  color: rgb(243, 243, 201);
 }
 
 @media screen and (min-width: 900px) {
   .projectCardsContainer {
-      flex-direction: row;
-      flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
