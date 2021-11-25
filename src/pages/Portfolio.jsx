@@ -18,7 +18,7 @@ const Portfolio = () => {
     window.open("https://peaceful-hoover-462aa0.netlify.app/");
 }
 
-  const onBayouBrosClick = () => {;
+  const onBayouBrosClick = () => {
   window.open("https://jolly-ramanujan-7108eb.netlify.app/");
 }
 
