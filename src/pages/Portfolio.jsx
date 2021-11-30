@@ -3,6 +3,7 @@
 import React from "react";
 import "./css/Portfolio.css";
 import { Container } from "react-bootstrap";
+import bytorDesigns from '../Images/bytorDesignsImg.png'
 import sgPhotoImg from "../Images/sgPhotoImg.png";
 import drivenResultsImg from "../Images/DrivenResultsImg.png";
 import linkeratorImg from "../Images/linkeratorImg.png";
@@ -10,6 +11,10 @@ import artCollectorImg from "../Images/artCollectorImg.png";
 import bayouBrosImg from "../Images/bayouBrosImg.png";
 
 const Portfolio = () => {
+  const onBytorDesignsClick = () => {
+    window.open("https://optimistic-babbage-eb36e4.netlify.app/")
+  }
+
   const onSgPhotographyClick = () => {
     window.open("https://goofy-wright-304451.netlify.app/");
 }
@@ -34,6 +39,16 @@ const onArtCollectorClick = () => {
     <>
       <div className="portfolioPg">
         <Container className="projectCardsContainer">
+
+        <div className="projectLinks" onClick={onBytorDesignsClick}>
+            Bytor Designs
+            <img
+              className="projectImg"
+              src={bytorDesigns}
+              alt="bytorDesignsImg"
+            />
+          </div>
+
           <div className="projectLinks" onClick={onSgPhotographyClick}>
             SG Photography
             <img
