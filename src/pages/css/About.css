@@ -1,5 +1,5 @@
 .aboutPg {
-  background-color: rgb(160, 160, 90);
+  background-color: rgb(11, 127, 250);
 }
 
 .aboutContainer {
@@ -24,7 +24,7 @@ figCaption {
   padding: 20px;
   margin: 20px;
 
-  background: rgba(115, 214, 181, 0.17);
+  background: rgba(143, 184, 170, 0.475);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(18.8px);
